@@ -1,33 +1,56 @@
-.App {
+.status-indicator {
+  padding-top: 145px;
+  text-align: center;
+  color: darkcyan;
+  font-size: 68px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 65px;
+  color: blue;
+  text-shadow: 2px 2px 5px #000;
+}
+.thumb {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  float: left;
+}
+
+.card-img-top {
+  width: 360px;
+  height: 550px;
+}
+.card-text {
+  color: blue;
+  font-size: 34px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h1, p {text-align: center;}
+
+h2 {
+  padding-top: 100px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#about-owner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 23px;
+  border: solid 1px blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  padding: 50px;
+  text-align: center;
+  color: blanchedalmond;
 }
