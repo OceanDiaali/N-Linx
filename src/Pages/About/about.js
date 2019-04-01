@@ -3,7 +3,7 @@ import Header from '../../HeaderComponent';
 import Footer from '../../FooterComponent';
 import './about.css';
 
-export default class Business extends React.Component {
+export default class About extends React.Component {
     render() {
         return(
             <div>

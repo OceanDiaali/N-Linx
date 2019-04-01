@@ -68,4 +68,4 @@ export default class Health extends Component {
         );
         }
     }
-}
+} // class
