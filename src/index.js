@@ -11,6 +11,7 @@ import Home from './Pages/Home/home';
 import Sports from './Pages/Sports/sports';
 import Health from './Pages/Health/health';
 import About from './Pages/About/about';
+import Tech from './Pages/Tech/tech';
 
 
 const routing = (
@@ -21,6 +22,7 @@ const routing = (
   <Route exact path="/business" component={Business} />
   <Route exact path="/sports" component={Sports} />
   <Route exact path="/health" component={Health} />
+  <Route exact path="/technology" component={Tech}/>
   <Route exact path="/about" component={About} />
 </Router>
 );
