@@ -1,0 +1,9 @@
+#message-box {
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+#msg-btn {
+    background-color: cornflowerblue;
+    color: bisque;
+}
