@@ -15,19 +15,19 @@ export default class Home extends Component {
 
                 <div className="card-deck">
                   <div className="card bg-primary">
-                  <img className="card-img-top" src="../../tiwa_savage.jpeg" alt="Card"/>
+                  <img className="card-img-top" src="../../tiwa_savage.jpeg" alt="Gossip"/>
                     <div className="card-body text-center card-img-overlay">
                       <p className="card-text">Get all the celebrity gossip!</p>
                     </div>
                   </div>
                   <div className="card bg-warning">
-                  <img className="card-img-top" src="../../dubai-airport.jpg" alt="Card"></img>
+                  <img className="card-img-top" src="../../dubai-airport.jpg" alt="Biz & Tech"></img>
                     <div className="card-body text-center card-img-overlay">
                       <p className="card-text">Read about all the business and tech!</p>
                     </div>
                   </div>
                   <div className="card bg-success">
-                  <img className="card-img-top" src="../../lasgidi-map.png" alt="Card"></img>
+                  <img className="card-img-top" src="../../lasgidi-map.png" alt="Faces & Places"></img>
                     <div className="card-body text-center card-img-overlay">
                       <p className="card-text">Find news on travel and destinations</p>
                     </div>
