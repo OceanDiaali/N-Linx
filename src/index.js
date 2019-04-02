@@ -12,10 +12,13 @@ import Sports from './Pages/Sports/sports';
 import Health from './Pages/Health/health';
 import About from './Pages/About/about';
 import Tech from './Pages/Tech/tech';
+import Header from './HeaderComponent';
+import Footer from './FooterComponent';
 
 
-const routing = (
+const routing = (   
 <Router>
+<Header/> 
   <Route exact path="/" component={App} />
   <Route exact path="/home" component={Home}/>
   <Route exact path="/entertainment" component={Entertainment} />
@@ -24,13 +27,11 @@ const routing = (
   <Route exact path="/health" component={Health} />
   <Route exact path="/technology" component={Tech}/>
   <Route exact path="/about" component={About} />
+  <Footer/>
 </Router>
 );
 
 
 ReactDOM.render(routing, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
