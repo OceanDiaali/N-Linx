@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from '../../HeaderComponent';
-import Footer from '../../FooterComponent';
+
 import './about.css';
 
 export default class About extends React.Component {
     render() {
         return(
             <div>
-            <Header/>
+
             <h1 className="label">About N-Linx</h1>
             <p>N-Linx is where you get the web links to latest gist!</p>
             <p>It is simply a collection of stories from varied sources which is served via web links</p>
@@ -24,7 +23,7 @@ export default class About extends React.Component {
                 <input type="submit" value="Send" id="msg-btn"/>
             </form>
             </div>
-            <Footer/>
+
             </div>
         );
     }

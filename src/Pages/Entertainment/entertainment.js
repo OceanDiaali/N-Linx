@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import Header from '../../HeaderComponent';
-import Footer from '../../FooterComponent';
+
 
 export default class Entertainment extends Component {
     constructor(props) {
@@ -49,9 +48,9 @@ export default class Entertainment extends Component {
             return <div className="status-indicator">just a moment..</div>;
         } else {
         return(
-            <div>
-                <Header />
-            <div className="container">
+            <div >
+                
+            <div id="entertainment" className="container">
             
               <ul className="list-group list-group-flush">
                   {articles.map(article => (
@@ -63,7 +62,7 @@ export default class Entertainment extends Component {
                   ))}
               </ul>
             </div>
-                <Footer/>
+                
             </div>
         );
         }

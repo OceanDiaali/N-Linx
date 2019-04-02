@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Header from '../../HeaderComponent';
-import Footer from '../../FooterComponent';
+
 
 export default class Sports extends React.Component {
     constructor(props) {
@@ -50,7 +49,7 @@ export default class Sports extends React.Component {
         } else {
         return(
             <div>
-                <Header />
+                
             <div className="container">
             
               <ul className="list-group list-group-flush">
@@ -63,7 +62,7 @@ export default class Sports extends React.Component {
                   ))}
               </ul>
             </div>
-                <Footer/>
+                
             </div>
         );
         }
