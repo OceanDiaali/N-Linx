@@ -30,11 +30,15 @@ a:hover {
   height: 350px;
   margin: 7px 0 7px 0;
 }
+
+.card-body {
+  padding-top: 93px;
+}
 .card-text {
   color: rgb(245, 245, 252);
   font-size: 34px;
   text-shadow: 3px 2px 2px #000;
-  padding-top: 193px;
+  
 }
 
 h1, p {text-align: center;}
