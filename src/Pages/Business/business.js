@@ -43,8 +43,7 @@ export default class Business extends Component {
     render() {
         const { error, isLoaded, articles } = this.state;
         if (error) {
-        {/*return <div className="status-indicator">Error: {error.message}</div>;*/}
-           return <div className="status-indicator">Oops! Check your network connection..</div>
+           return <div className="status-indicator">Oops! Check your network connection..</div>;
           } else if (!isLoaded) {
             return <div className="status-indicator">just a moment..</div>;
         } else {
