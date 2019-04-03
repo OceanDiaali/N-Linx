@@ -8,6 +8,10 @@
 body {
   margin-top: 65px;
 }
+
+.navbar {
+  padding-bottom: 17px;
+}
 a:hover {
   text-decoration: none;
 }
@@ -17,6 +21,11 @@ a:hover {
   font-size: 65px;
   color: rgb(7, 7, 92);
   text-shadow: 2px 2px 5px #000;
+}
+
+.sub-label {
+  color: darkkhaki;
+  text-shadow: 2px 2px 2px #000; 
 }
 .thumb {
   width: 150px;
