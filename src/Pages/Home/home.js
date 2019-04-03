@@ -6,10 +6,10 @@ export default class Home extends Component {
         return(
             <div>
                 
-                <div className="jumbotron jumbotron-fluid">
+                <div className="jumbotron jumbotron-fluid bg-info">
                 <div className="container">
                   <h1 className="label">N-Linx!</h1>      
-                  <p>Get all the important, latest news from around the world.</p>
+                  <p className="sub-label">Get all the important, latest news from around the world.</p>
                 </div>
                 </div>
 
