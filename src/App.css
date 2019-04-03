@@ -15,7 +15,7 @@ a:hover {
 .label {
   font-weight: bold;
   font-size: 65px;
-  color: blue;
+  color: rgb(7, 7, 92);
   text-shadow: 2px 2px 5px #000;
 }
 .thumb {
@@ -26,13 +26,15 @@ a:hover {
 }
 
 .card-img-top {
-  width: 360px;
-  height: 550px;
+  width: 220px;
+  height: 350px;
+  margin: 7px 0 7px 0;
 }
 .card-text {
-  color: blue;
+  color: rgb(245, 245, 252);
   font-size: 34px;
-  text-shadow: 2px 2px 5px #000;
+  text-shadow: 3px 2px 2px #000;
+  padding-top: 193px;
 }
 
 h1, p {text-align: center;}
