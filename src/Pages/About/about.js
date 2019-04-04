@@ -10,13 +10,19 @@ export default class About extends React.Component {
 
             <h1 className="label">About N-Linx</h1>
             <p>N-Linx is where you get the web links to latest gist!</p>
-            <p>It is simply a collection of stories from varied sources which is served via web links</p>
-            <p>Just click on any story you fancy, and you shall be directed to its source.You will have to use the "back button" on your device to return to our app though.</p>
+            <p>Scroll through a collection of news stories from varied sources which is served via WEB LINKS - hence, the name.</p>
+            <p>Each story will open in a new window or tab(depending on your browser configuration).</p>
+            <p>Our app would still be open,and we'd like you to return once you're done reading..</p>
             <p>Please, do.</p>
 
             <img src="../../ocean-red.jpg" alt="ocean" id="about-owner"/>
             <p>Architecture by Ocean Semreh Diaali</p>
 
+            <div id="media-link" className="d-flex justify-content-center">
+              <a href="https://twitter.com/oceandiaali" target="_blank" rel="noopener noreferrer"><img src="../../twitter-logo.png" alt="twitter" className="img-logo"/></a>
+              <a href="https://linkedin.com/in/oceandiaali" target="_blank" rel="noopener noreferrer"><img src="../../linkedin-logo.png" alt="linkedin" className="img-logo"/></a>
+              <a href="https://facebook.com/oceandiaali" target="_blank" rel="noopener noreferrer"><img src="../../facebook-logo.png" alt="facebook" className="img-logo"/></a>
+            </div>
             <div id="message-box">
             <h2>Send Ocean a message</h2>
             <form className="ui-form">
