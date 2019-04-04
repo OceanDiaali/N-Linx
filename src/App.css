@@ -27,8 +27,8 @@ a:hover {
   text-shadow: 2px 2px 2px #000; 
 }
 .thumb {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 25px;
   float: left;
 }
@@ -64,6 +64,14 @@ h2 {
   height: 150px;
   border-radius: 23px;
   border: solid 1px blue;
+}
+
+.img-logo {
+  width: 90px;
+  height: 90px;
+}
+#media-link {
+  margin-bottom: 0;
 }
 
 footer {
