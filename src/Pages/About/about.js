@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './about.css';
+import './test';
 
 export default class About extends React.Component {
     render() {
@@ -20,15 +21,10 @@ export default class About extends React.Component {
             <h2>Send Ocean a message</h2>
             <form className="ui-form">
                 <textarea placeholder="type a message.." rows="3"/><br/>
-                <input type="submit" value="Send" id="msg-btn" onClick="test()"/>
+                <input type="submit" value="Send" id="msg-btn" onClick="message()"/>
             </form>
             </div>
 
-              <script>
-                  function test() {
-                      alert('This is not functional at the moment. Sorry')
-                  }
-              </script>
             </div>
         );
     }
