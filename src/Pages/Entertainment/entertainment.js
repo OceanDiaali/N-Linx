@@ -43,9 +43,14 @@ export default class Entertainment extends Component {
     render() {
         const { error, isLoaded, articles } = this.state;
         if (error) {
-            return <div className="status-indicator">Oops! Check your network connection..</div>;
+            return <div className="status-indicator">
+              <h4>Oops! I've lost network..</h4>
+              <p>Please,check your connection and refresh the page.</p>
+            </div>;
           } else if (!isLoaded) {
-            return <div className="status-indicator">just a moment..</div>;
+            return <div className="status-indicator">
+              <h4>just a moment..</h4>
+              </div>;
         } else {
         return(
             <div >
@@ -57,7 +62,7 @@ export default class Entertainment extends Component {
                       
                       <li className="list-group-item" key={article.title}>
                         <img className=" shadow-lg border border-primary thumb" src={article.urlToImage} alt={article.author}/>
-                        <h2><a href={article.url}>{article.title}</a></h2>
+                        <h2><a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a></h2>
                       </li>
                   ))}
               </ul>
