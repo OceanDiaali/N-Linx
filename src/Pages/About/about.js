@@ -20,10 +20,15 @@ export default class About extends React.Component {
             <h2>Send Ocean a message</h2>
             <form className="ui-form">
                 <textarea placeholder="type a message.." rows="3"/><br/>
-                <input type="submit" value="Send" id="msg-btn"/>
+                <input type="submit" value="Send" id="msg-btn" onClick="test()"/>
             </form>
             </div>
 
+              <script>
+                  function test() {
+                      alert('This is not functional at the moment. Sorry')
+                  }
+              </script>
             </div>
         );
     }
