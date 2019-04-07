@@ -49,7 +49,7 @@ export default class Health extends Component {
               </div>;
           } else if (!isLoaded) {
             return <div className="status-indicator">
-              <h4>just a moment..</h4>
+              <h4>..getting some health news..</h4>
             </div>;
         } else {
         return(

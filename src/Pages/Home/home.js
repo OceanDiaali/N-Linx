@@ -8,8 +8,8 @@ export default class Home extends Component {
                 
                 <div className="jumbotron jumbotron-fluid bg-info">
                 <div className="container">
-                  <h1 className="label">N-Linx!</h1>      
-                  <p className="sub-label">Get all the important, latest news from around the world.</p>
+                  <h1 className="label">NewsLinx!</h1>      
+                  <p className="sub-label">Get all the latest news from around the world.</p>
                 </div>
                 </div>
 
@@ -50,9 +50,9 @@ export default class Home extends Component {
                     </div>
                   </div>
                   <div className="card bg-danger">
-                  <img className="card-img-top" src="../../list.png" alt="List"></img>
+                  <img className="card-img-top" src="../../list.png" alt="Trending"></img>
                     <div className="card-body text-center card-img-overlay">
-                      <Link className="card-text" to="/about">See all the news that matter</Link>
+                      <Link className="card-text" to="/trends">See what's trending</Link>
                     </div>
                 </div>
 

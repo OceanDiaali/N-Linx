@@ -49,7 +49,7 @@ export default class Sports extends React.Component {
             </div>;
           } else if (!isLoaded) {
             return <div className="status-indicator">
-              <h4>just a moment..</h4>
+              <h4>..gathering the latest sports stories..</h4>
             </div>;
         } else {
         return(
