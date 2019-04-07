@@ -1,3 +1,9 @@
+body {
+  background-color: blanchedalmond;
+}
+.card-deck {
+  padding: 1px 7px 29px 7px;
+}
 .status-indicator {
   padding-top: 145px;
   text-align: center;
