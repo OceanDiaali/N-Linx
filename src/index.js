@@ -14,7 +14,7 @@ import About from './Pages/About/about';
 import Tech from './Pages/Tech/tech';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
-import Trends from './Pages/Trends/trends';
+import Images from './Pages/Images/images';
 
 
 const routing = (   
@@ -27,7 +27,7 @@ const routing = (
   <Route exact path="/sports" component={Sports} />
   <Route exact path="/health" component={Health} />
   <Route exact path="/technology" component={Tech}/>
-  <Route exact path="/trends" component={Trends}/>
+  <Route exact path="/images" component={Images}/>
   <Route exact path="/about" component={About} />
   <Footer/>
 </Router>
