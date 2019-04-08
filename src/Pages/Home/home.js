@@ -52,7 +52,7 @@ export default class Home extends Component {
                   <div className="card bg-danger">
                   <img className="card-img-top" src="../../list.png" alt="Trending"></img>
                     <div className="card-body text-center card-img-overlay">
-                      <Link className="card-text" to="/trends">See what's trending</Link>
+                      <Link className="card-text" to="/images">Download music photos</Link>
                     </div>
                 </div>
 
