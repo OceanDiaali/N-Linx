@@ -1,0 +1,21 @@
+
+
+.flex-column {
+    max-width: 260px;
+}
+
+img {
+    margin: 5px;
+    border-radius: 8px;
+}
+
+
+.scale {
+    transform: scaleY(1.05);
+    padding-top: 5px; 
+}
+
+#heart {
+    width: 25px;
+    height: 25px;
+}
