@@ -15,6 +15,7 @@ import Tech from './Pages/Tech/tech';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Images from './Pages/Images/images';
+import Chat from './Pages/Chat/chat';
 
 
 const routing = (   
@@ -28,6 +29,7 @@ const routing = (
   <Route exact path="/health" component={Health} />
   <Route exact path="/technology" component={Tech}/>
   <Route exact path="/images" component={Images}/>
+  <Route exact path="/chat" component={Chat}/>
   <Route exact path="/about" component={About} />
   <Footer/>
 </Router>
