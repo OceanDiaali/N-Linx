@@ -8,8 +8,8 @@ export default class Home extends Component {
                 
                 <div className="jumbotron jumbotron-fluid bg-info">
                 <div className="container">
-                  <h1 className="label">NewsLinx!</h1>      
-                  <p className="sub-label">Get all the latest news from around the world.</p>
+                  <h1 className="label">Tie-Ups!</h1>      
+                  <p className="sub-label">Get all the latest, global news via links.</p>
                 </div>
                 </div>
 
