@@ -1,3 +1,11 @@
+#finger {
+    width: 125px;
+    height: 125px;
+}
 #chat-btn {
     margin: 43px;
+}
+
+.chat-label {
+    text-shadow: 3px 2px 5px #000;
 }

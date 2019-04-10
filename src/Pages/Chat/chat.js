@@ -6,8 +6,9 @@ export default class Chat extends Component {
     render() {
         return(
             <div class="container text-center">
-              <h2>Click the button to begin Chat</h2>
-              <a href="https://assistant-chat-us-east.watsonplatform.net/web/public/c6e0fd59-abb3-466c-ba49-14bb69e191ed" target="_blank" rel="noopener noreferrer" class="btn btn-info" role="button" id="chat-btn">Launch Chat</a>
+              <img src="../../point_finger.png" alt="pointing finger" id="finger"/>
+              <a href="https://assistant-chat-us-east.watsonplatform.net/web/public/6bfb32ca-ecc1-4a6f-82ee-b0d2935b4d1a" target="_blank" rel="noopener noreferrer" class="btn btn-info" role="button" id="chat-btn">Launch Chat</a>
+              <p className="chat-label">The button launches a PREVIEW of the Virtual Assistant in  a new tab or window (depending on your browser configuration)</p>
             </div>
         );
     }
