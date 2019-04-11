@@ -7,7 +7,7 @@ export default class Header extends React.Component {
             
             <div>
                 <nav className="navbar navbar-expand-md bg-info navbar-dark fixed-top">
-                  <Link className="navbar-brand text-warning active " to="/home">n-linx</Link>
+                  <Link className="navbar-brand text-warning active " to="/home" id="app-name">n-linx</Link>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
                   </button>
