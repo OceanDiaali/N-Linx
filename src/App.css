@@ -1,6 +1,11 @@
 body {
   background-color: blanchedalmond;
 }
+
+#app-name {
+  font-size: 27px;
+  font-weight: bold;
+}
 .card-deck {
   padding: 1px 7px 29px 7px;
 }
