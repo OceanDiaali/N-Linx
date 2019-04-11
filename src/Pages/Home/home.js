@@ -8,7 +8,7 @@ export default class Home extends Component {
                 
                 <div className="jumbotron jumbotron-fluid bg-info">
                 <div className="container">
-                  <h1 className="label">Tie-Ups!</h1>      
+                  <h1 className="label">n-linx</h1>      
                   <p className="sub-label">Get all the latest, global news via links.</p>
                 </div>
                 </div>

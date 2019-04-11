@@ -8,11 +8,11 @@ export default class About extends React.Component {
         return(
             <div>
 
-            <h1 className="label">Tie-Ups! info</h1>
-            <p>Tie-Ups! provides you with regular feeds of the latest news from your country and around the world</p>
+            <h1 className="label">n-linx info</h1>
+            <p>n-linx provides you with regular feeds of the latest news from your country and around the world</p>
             <p>Scroll through a collection of news stories from varied sources which is served via WEB LINKS - hence, the name.</p>
             <p>Each story will open in a new window or tab(depending on your browser configuration).</p>
-            <p>Our app would still be open,and we'd like you to return once you're done reading..</p>
+            <p>Our app would still be open, and we'd like you to return once you're done reading..</p>
             <p>Please, do.</p>
 
             <img src="../../ocean-red.jpg" alt="ocean" id="about-owner"/>
